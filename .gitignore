@@ -1,7 +1,7 @@
 ## for mac
 .DS_Store
 
-data/
+# data/
 dataset/
 RawData/
 rawdata/
