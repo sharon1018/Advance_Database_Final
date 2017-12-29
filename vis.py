@@ -65,12 +65,12 @@ def vis_network(nodes, edges, physics=False):
 
     return IFrame(filename, width="100%", height="400")
 
-def draw(graph, options, physics=False, limit=10000):
+def draw(graph, query, options, physics=False, limit=10000):
     # The options argument should be a dictionary of node labels and property keys; it determines which property
     # is displayed for the node label. For example, in the movie graph, options = {"Movie": "title", "Person": "name"}.
     # Omitting a node label from the options dict will leave the node unlabeled in the visualization.
     # Setting physics = True makes the nodes bounce around when you touch them!
-    query = """
+    """query = 
     MATCH (n)
     WITH n, rand() AS random
     ORDER BY random
