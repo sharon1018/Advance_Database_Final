@@ -84,7 +84,7 @@ def draw(graph, query, options, physics=False, limit=10000):
     """
 
     data = graph.run(query, limit=limit)
-
+    print(data)
     nodes = []
     edges = []
 
